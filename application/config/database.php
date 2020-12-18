@@ -74,12 +74,12 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> '',
+	'dsn'	=> 'host=localhost port=5432 dbname=simbah user=jerry password=heliumvoldo123456',
 	'hostname' => 'localhost',
 	'username' => '',
 	'password' => '',
 	'database' => '',
-	'dbdriver' => 'mysqli',
+	'dbdriver' => 'postgre',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
